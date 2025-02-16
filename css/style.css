@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
+    background-color: white;
 }
 
 h1 {
@@ -35,6 +36,7 @@ header {
 
 .logo {
     align-content: center;
+    cursor: pointer;
 }
 
 nav {
