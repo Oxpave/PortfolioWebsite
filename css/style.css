@@ -1,0 +1,80 @@
+body {
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1004px;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    align-content: center;
+}
+
+nav {
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    gap: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+section {
+    margin: 200px 0;
+}
+
+#projects ul {
+    padding: 0;
+}
+
+#projects ul li {
+    list-style: none;
+    margin: 100px 0;
+}
+
+#projects ul li img {
+    max-width: 100%;
+}
+
+#projects ul li ul {
+    padding: 0 0 0 40px;
+    margin: 16px 0;
+}
+
+#projects li li {
+    list-style: initial;
+    margin: initial;
+}
